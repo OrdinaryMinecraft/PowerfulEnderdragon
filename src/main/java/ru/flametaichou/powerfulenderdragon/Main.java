@@ -9,7 +9,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraftforge.common.MinecraftForge;
 
 
-@Mod (modid = "powerfulenderdragon", name = "PowerfulEnderdragon", version = "0.2")
+@Mod (modid = "powerfulenderdragon", name = "PowerfulEnderdragon", version = "0.3")
 
 public class Main {
 	

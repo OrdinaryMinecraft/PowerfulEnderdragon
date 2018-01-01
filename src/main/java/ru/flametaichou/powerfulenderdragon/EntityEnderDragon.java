@@ -121,17 +121,17 @@ public class EntityEnderDragon extends EntityDragon {
         byte b0 = 64;
         byte b1 = 4;
         
-        this.worldObj.setBlock(p_70975_1_, b0 + 1, p_70975_2_, Blocks.bedrock);
+        this.worldObj.setBlock(p_70975_1_, b0 - 1, p_70975_2_, Blocks.bedrock);
         
-        this.worldObj.setBlock(p_70975_1_ + 1, b0 + 1, p_70975_2_ + 1, Blocks.obsidian);
-        this.worldObj.setBlock(p_70975_1_ + 1, b0 + 1, p_70975_2_ + 0, Blocks.obsidian);
-        this.worldObj.setBlock(p_70975_1_ + 1, b0 + 1, p_70975_2_ - 1, Blocks.obsidian);
-        this.worldObj.setBlock(p_70975_1_ - 1, b0 + 1, p_70975_2_ + 1, Blocks.obsidian);
-        this.worldObj.setBlock(p_70975_1_ - 1, b0 + 1, p_70975_2_ + 0, Blocks.obsidian);
-        this.worldObj.setBlock(p_70975_1_ - 1, b0 + 1, p_70975_2_ - 1, Blocks.obsidian);
-        this.worldObj.setBlock(p_70975_1_ + 0, b0 + 1, p_70975_2_ + 1, Blocks.obsidian);
-        this.worldObj.setBlock(p_70975_1_ + 0, b0 + 1, p_70975_2_ - 1, Blocks.obsidian);
+        this.worldObj.setBlock(p_70975_1_ + 1, b0 - 1, p_70975_2_ + 1, Blocks.obsidian);
+        this.worldObj.setBlock(p_70975_1_ + 1, b0 - 1, p_70975_2_ + 0, Blocks.obsidian);
+        this.worldObj.setBlock(p_70975_1_ + 1, b0 - 1, p_70975_2_ - 1, Blocks.obsidian);
+        this.worldObj.setBlock(p_70975_1_ - 1, b0 - 1, p_70975_2_ + 1, Blocks.obsidian);
+        this.worldObj.setBlock(p_70975_1_ - 1, b0 - 1, p_70975_2_ + 0, Blocks.obsidian);
+        this.worldObj.setBlock(p_70975_1_ - 1, b0 - 1, p_70975_2_ - 1, Blocks.obsidian);
+        this.worldObj.setBlock(p_70975_1_ + 0, b0 - 1, p_70975_2_ + 1, Blocks.obsidian);
+        this.worldObj.setBlock(p_70975_1_ + 0, b0 - 1, p_70975_2_ - 1, Blocks.obsidian);
         
-        this.worldObj.setBlock(p_70975_1_, b0 + 0, p_70975_2_, Blocks.dragon_egg);
+        this.worldObj.setBlock(p_70975_1_, b0 - 0, p_70975_2_, Blocks.dragon_egg);
     }
 }
